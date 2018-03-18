@@ -1,6 +1,5 @@
 package pl.kwojtas.trakkit.model;
 
-import lombok.Builder;
 import lombok.Data;
 
 import javax.persistence.Entity;
@@ -12,7 +11,6 @@ import java.time.LocalDate;
 
 @Entity
 @Data
-@Builder
 public class VideoGame {
 
     @Id

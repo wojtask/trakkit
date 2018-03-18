@@ -1,6 +1,5 @@
 package pl.kwojtas.trakkit.model;
 
-import lombok.Builder;
 import lombok.Data;
 
 import javax.persistence.CascadeType;
@@ -14,7 +13,6 @@ import java.util.Set;
 
 @Entity
 @Data
-@Builder
 public class User {
 
     @Id

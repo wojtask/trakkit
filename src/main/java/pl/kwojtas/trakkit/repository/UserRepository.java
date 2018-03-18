@@ -1,4 +1,4 @@
-package pl.kwojtas.trakkit.repositories;
+package pl.kwojtas.trakkit.repository;
 
 import org.springframework.data.repository.CrudRepository;
 import pl.kwojtas.trakkit.model.User;
